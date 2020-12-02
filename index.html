@@ -2,8 +2,9 @@
 
 <html lang="en">
     <head>
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial scale=1.0">
-
+        <meta name="description" content="Omnifood is a premium food-delivery service with the mission to bring affordable and healthy meals to as many people as possible.">
         <link rel="stylesheet" type="text/css" href="Vendors/CSS/normalize.css">
         <link rel="stylesheet" type="text/css" href="Vendors/CSS/grid.css">
         <link rel="stylesheet" type="text/css" href="Vendors/CSS/ionicons.min.css">
@@ -13,6 +14,17 @@
        
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
         <title>Omnifood</title>
+
+        <link rel="apple-touch-icon" sizes="180x180" href="Resources/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="Resources/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="Resources/favicons/favicon-16x16.png">
+        <link rel="manifest" href="Resources/favicons/site.webmanifest">
+        <link rel="mask-icon" href="Resources/favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="Resources/favicons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="Resources/favicons/browserconfig.xml">
+        <meta name="theme-color" content="#e67e22">
+
     </head>
     <body>
        <header>
@@ -26,7 +38,7 @@
                         <li><a href="#cities">Our cities</a> </li>
                         <li><a href="#plans">Sign up</a> </li>
                     </ul>
-                    <a class="mobile-nav-icon js--nav-icon"><ion-icon class="menu" name="menu"></ion-icon></ion-icon></a>
+                    <a class="mobile-nav-icon js--nav-icon"><ion-icon class="menu" name="menu"></ion-icon></a>
                 </div>
            </nav>
             <div class="hero-text-box">
@@ -227,19 +239,19 @@
            <div class="row">
                 <div class="col span-1-of-3">
                     <blockquote>Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
-                        <cite><img src="Resources/IMG/customer-1.jpg">Alberto Duncan</cite>
+                        <cite><img src="Resources/IMG/customer-1.jpg" alt="Customer 1 photo">Alberto Duncan</cite>
                     </blockquote>
                     
                 </div>
                 <div class="col span-1-of-3">
                     <blockquote>Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food delivery here in Lisbon, but no one comes even close to Omifood. Me and my family are so in love!
-                        <cite><img src="Resources/IMG/customer-2.jpg">Joana Silva</cite>
+                        <cite><img src="Resources/IMG/customer-2.jpg" alt="Customer 2 photo">Joana Silva</cite>
                     </blockquote>
                     
                 </div>
                 <div class="col span-1-of-3">
                     <blockquote>I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of them and ended up with Omnifood. Best food delivery service in the Bay Area. Keep up the great work!
-                        <cite><img src="Resources/IMG/customer-3.jpg">Milton Chapman</cite>
+                        <cite><img src="Resources/IMG/customer-3.jpg" alt="Customer 3 photo">Milton Chapman</cite>
                     </blockquote>
                     
                 </div>
@@ -365,10 +377,11 @@
                     </div>
                     <div class="row">
                         <div class="col span-1-of-3">
-                            <label for="message">Drop us a line?</label>
+                            <label for="message" id="textarea">Drop us a line?</label>
+                           <!--<input name="message" id="message" type="text"/>--> 
                         </div>
                         <div class="col span-2-of-3">
-                            <textarea name="message" placeholder="Your message"></textarea>
+                            <textarea name="message" id="message" placeholder="Your message"></textarea>
                         </div>
                     </div>
                     <div class="row">
@@ -419,15 +432,3 @@
         </body>
     
 </html>
-
-<!--
-Navigation:
-1. About us
-2. Blog
-3. Press
-4. iOS App
-5. Android App
-
-Also include links to facebook, twitter, google+ and Instagram accounts.
-
--->
